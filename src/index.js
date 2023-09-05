@@ -8,6 +8,7 @@ import { CategoriesProvider } from "./contexts/categories.context";
 import { CartProvider } from "./contexts/cart.context";
 import { GlobalStyle } from "./index.jsx";
 
+
 import './index.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
