@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { CheckoutItemContainer } from "./checkout-item.styles.jsx";
 import { removeItemFromCart, clearItemFromCart, addItemToCart } from "../../store/cart/cart.action.js";
-import { selectCartItems } from "../../store/cart/cart.selector.js";
+import { selectCartItems } from "../../store/cart/cart.selector";
 
 const CheckoutItem = ({ cartItem }) => {
   const dispatch = useDispatch();
